@@ -1,6 +1,16 @@
 # 📊 Project: Portfolio-Optimization-with-Low-Correlation 
 An algorithmic portfolio management simulation over a 12-year horizon using correlation-based stock selection strategies and performance evaluation with Sharpe Ratio and Max Drawdown. This project simulates a systematic approach to managing a $1M investment in the U.S. stock market from 2012 to 2024. The strategy involves quarterly rebalancing and selecting low-correlation assets from the S&P 500 to form a diversified portfolio of 10 stocks.
 
+<br>
+
+## 📈 Performance Evaluation
+
+| Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
+|------------------------|--------------|--------------|--------------------|
+| **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
+| **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
+| **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
+| **QQQ ETF**            | 0.95         | -36.69%      | ~1000–1100%        |
 
 <br>
 
@@ -17,16 +27,6 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 - Repeat this process for the entire 12-year period.
 
 <br>
-
-## 📈 Performance Evaluation
-
-| Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
-|------------------------|--------------|--------------|--------------------|
-| **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
-| **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
-| **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
-| **QQQ ETF**            | 0.95         | -36.69%      | ~1000–1100%        |
-
 
 During the simulation, the portfolio's daily wealth is tracked to compute:
 - 📉 Maximum Drawdown (MDD): Largest observed loss from a peak to a trough.
