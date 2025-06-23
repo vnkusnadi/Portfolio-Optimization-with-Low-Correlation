@@ -6,7 +6,7 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 ## 🧠 Description
 This project simulates a systematic approach to managing a $1M investment in the U.S. stock market from 2012 to 2024. The strategy involves quarterly rebalancing and selecting low-correlation assets from the S&P 500 to form a diversified portfolio of 10 stocks.
 
-<br><br>
+<br>
 
 ##  🧩 Strategy Breakdown
 - Every 3 months, the following is done:
@@ -19,6 +19,8 @@ This project simulates a systematic approach to managing a $1M investment in the
 - Invest equally in the selected 10 stocks.
 - Hold for the next 3 months.
 - Repeat this process for the entire 12-year period.
+
+<br>
 
 ## 📈 Performance Evaluation
 
@@ -40,7 +42,7 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - QQQ – Nasdaq 100 Index
 
 
-<br><br>
+<br>
 
 ## 🧮 What I Learned
 - Correlation Matrix: How to compute and interpret correlations between assets.
@@ -49,7 +51,7 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - Time-Series Handling: Using pandas and yfinance to handle financial time series data.
 - Investment Simulation: Creating realistic backtests with rebalance logic and historical data.
 
-<br><br>
+<br>
 
 ## 🔧 Technologies Used
 - Python 3.13.3
@@ -58,7 +60,7 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - seaborn: Visualization
 - scipy: Statistical functions
 
-<br><br>
+<br>
 
 ## 💻 How to Run
 
@@ -70,7 +72,7 @@ Open the notebook Project_1_Portfolio_Management.ipynb, and run cells sequential
 - Plot performance
 - Compare with SPY and QQQ
 
-<br><br>
+<br>
 
 ## 🧠 Stochastic Concepts Used
 This project applies stochastic modeling by simulating a dynamic investment strategy under uncertainty:
