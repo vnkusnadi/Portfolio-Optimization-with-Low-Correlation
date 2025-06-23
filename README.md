@@ -22,15 +22,24 @@ This project simulates a systematic approach to managing a $1M investment in the
 - Repeat this process for the entire 12-year period.
 
 #### 📈 Performance Evaluation
+##### ✅ Results
+| Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
+|------------------------|--------------|--------------|--------------------|
+| **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
+| **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
+| **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
+| **QQQ ETF**            | 0.95         | -36.69%      | ~1000–1100%        |
+
+
 During the simulation, the portfolio's daily wealth is tracked to compute:
 - 📉 Maximum Drawdown (MDD): Largest observed loss from a peak to a trough.
 - 📊 Sharpe Ratio (Annualized):
   - Convert daily Sharpe ratio to annual using:
   - $$ \text{Sharpe}_{\text{annual}} = \text{Sharpe}_{\text{daily}} \times \sqrt{252} $$
- 
 These metrics are used to evaluate performance against benchmark ETFs:
 - SPY – S&P 500 Index
 - QQQ – Nasdaq 100 Index
+
 
 <br><br>
 
