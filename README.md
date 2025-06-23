@@ -5,12 +5,13 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 
 ## 📈 Performance Evaluation
 
-| Strategy Version       | Annualized Sharpe Ratio | Max Drawdown | Total Return (%)   |
-|------------------------|--------------|--------------|--------------------|
-| **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
-| **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
-| **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
-| **QQQ ETF**            | 0.95         | -36.69%      | ~1000–1100%        |
+| Strategy Version        | Annualized Sharpe Ratio | Max Drawdown | Total Return (%) | Final Portfolio Value |
+|-------------------------|-------------------------|---------------|------------------|------------------------|
+| **Original Strategy**   | 1.13                    | -35.17%       | **891.44%**      | \$9,914,410.04         |
+| **Improved Strategy**   | 1.45                    | -29.22%       | **1,692.80%**     | \$17,928,033.62        |
+| **SPY ETF**             | 0.88                    | -32.05%       | -                | -                      |
+| **QQQ ETF**             | 0.95                    | -36.69%       | -                | -                      |
+
 
 ---
 
