@@ -1,8 +1,6 @@
 # 📊 Project: Portfolio-Optimization-with-Low-Correlation 
 An algorithmic portfolio management simulation over a 12-year horizon using correlation-based stock selection strategies and performance evaluation with Sharpe Ratio and Max Drawdown. This project simulates a systematic approach to managing a $1M investment in the U.S. stock market from 2012 to 2024. The strategy involves quarterly rebalancing and selecting low-correlation assets from the S&P 500 to form a diversified portfolio of 10 stocks.
 
-<br>
-
 ## 📈 Performance Evaluation
 
 | Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
@@ -11,8 +9,6 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 | **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
 | **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
 | **QQQ ETF**            | 0.95         | -36.69%      | ~1000–1100%        |
-
-<br>
 
 ##  🧩 Strategy Breakdown
 - Every 3 months, the following is done:
@@ -26,8 +22,6 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 - Hold for the next 3 months.
 - Repeat this process for the entire 12-year period.
 
-<br>
-
 During the simulation, the portfolio's daily wealth is tracked to compute:
 - 📉 Maximum Drawdown (MDD): Largest observed loss from a peak to a trough.
 - 📊 Sharpe Ratio (Annualized):
@@ -38,16 +32,12 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - QQQ – Nasdaq 100 Index
 
 
-<br>
-
 ## 🧮 What I Learned
 - Correlation Matrix: How to compute and interpret correlations between assets.
 - Portfolio Diversification: Reducing risk via low-correlation asset selection.
 - Performance Metrics: Sharpe Ratio and Max Drawdown as risk-return indicators.
 - Time-Series Handling: Using pandas and yfinance to handle financial time series data.
 - Investment Simulation: Creating realistic backtests with rebalance logic and historical data.
-
-<br>
 
 ## 🔧 Technologies Used
 - Python 3.13.3
@@ -56,7 +46,6 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - seaborn: Visualization
 - scipy: Statistical functions
 
-<br>
 
 ## 💻 How to Run
 
@@ -67,8 +56,6 @@ Open the notebook Project_1_Portfolio_Management.ipynb, and run cells sequential
 - Build portfolio quarterly
 - Plot performance
 - Compare with SPY and QQQ
-
-<br>
 
 ## 🧠 Stochastic Concepts Used
 This project applies stochastic modeling by simulating a dynamic investment strategy under uncertainty:
