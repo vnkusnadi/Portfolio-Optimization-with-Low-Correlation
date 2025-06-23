@@ -9,7 +9,6 @@ This project simulates a systematic approach to managing a $1M investment in the
 <br><br>
 
 ##  🧩 Strategy Breakdown
-#### 📅 Strategy:
 - Every 3 months, the following is done:
   - Use the past 6 months of daily return data for all S&P 500 stocks.
   - Select 10 stocks based on correlation analysis:
@@ -21,8 +20,8 @@ This project simulates a systematic approach to managing a $1M investment in the
 - Hold for the next 3 months.
 - Repeat this process for the entire 12-year period.
 
-#### 📈 Performance Evaluation
-##### ✅ Results
+## 📈 Performance Evaluation
+
 | Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
 |------------------------|--------------|--------------|--------------------|
 | **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
