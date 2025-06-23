@@ -1,6 +1,8 @@
 # 📊 Project: Portfolio-Optimization-with-Low-Correlation 
 An algorithmic portfolio management simulation over a 12-year horizon using correlation-based stock selection strategies and performance evaluation with Sharpe Ratio and Max Drawdown. This project simulates a systematic approach to managing a $1M investment in the U.S. stock market from 2012 to 2024. The strategy involves quarterly rebalancing and selecting low-correlation assets from the S&P 500 to form a diversified portfolio of 10 stocks.
 
+---
+
 ## 📈 Performance Evaluation
 
 | Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
@@ -32,12 +34,14 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - QQQ – Nasdaq 100 Index
 
 
-## 🧮 What I Learned
-- Correlation Matrix: How to compute and interpret correlations between assets.
-- Portfolio Diversification: Reducing risk via low-correlation asset selection.
-- Performance Metrics: Sharpe Ratio and Max Drawdown as risk-return indicators.
-- Time-Series Handling: Using pandas and yfinance to handle financial time series data.
-- Investment Simulation: Creating realistic backtests with rebalance logic and historical data.
+
+## 🧠 Stochastic Concepts Used
+This project applies stochastic modeling by simulating a dynamic investment strategy under uncertainty:
+- Daily price movement introduces randomness
+- Correlation analysis uses random time series behavior
+- Sharpe ratio models risk-adjusted expected returns
+
+
 
 ## 🔧 Technologies Used
 - Python 3.13.3
@@ -57,8 +61,10 @@ Open the notebook Project_1_Portfolio_Management.ipynb, and run cells sequential
 - Plot performance
 - Compare with SPY and QQQ
 
-## 🧠 Stochastic Concepts Used
-This project applies stochastic modeling by simulating a dynamic investment strategy under uncertainty:
-- Daily price movement introduces randomness
-- Correlation analysis uses random time series behavior
-- Sharpe ratio models risk-adjusted expected returns
+
+## 🧮 What I Learned
+- Correlation Matrix: How to compute and interpret correlations between assets.
+- Portfolio Diversification: Reducing risk via low-correlation asset selection.
+- Performance Metrics: Sharpe Ratio and Max Drawdown as risk-return indicators.
+- Time-Series Handling: Using pandas and yfinance to handle financial time series data.
+- Investment Simulation: Creating realistic backtests with rebalance logic and historical data.
