@@ -5,7 +5,7 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 
 ## 📈 Performance Evaluation
 
-| Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
+| Strategy Version       | Annualized Sharpe Ratio | Max Drawdown | Total Return (%)   |
 |------------------------|--------------|--------------|--------------------|
 | **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
 | **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
