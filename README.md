@@ -16,8 +16,8 @@ This project simulates a systematic approach to managing a $1M investment in the
     - Stock 1: Lowest average absolute correlation to all others.
     - Stock 2: Lowest absolute correlation with Stock 1.
     - Stock 3: Lowest average absolute correlation to Stock 1 & 2.
-  - Repeat until 10 unique stocks are chosen.
-  - Invest equally in the selected 10 stocks.
+    - Repeat until 10 unique stocks are chosen.
+- Invest equally in the selected 10 stocks.
 - Hold for the next 3 months.
 - Repeat this process for the entire 12-year period.
 
