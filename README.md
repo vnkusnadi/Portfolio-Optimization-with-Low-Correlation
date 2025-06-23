@@ -12,6 +12,8 @@ An algorithmic portfolio management simulation over a 12-year horizon using corr
 | **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
 | **QQQ ETF**            | 0.95         | -36.69%      | ~1000–1100%        |
 
+---
+
 ##  🧩 Strategy Breakdown
 - Every 3 months, the following is done:
   - Use the past 6 months of daily return data for all S&P 500 stocks.
@@ -33,7 +35,7 @@ These metrics are used to evaluate performance against benchmark ETFs:
 - SPY – S&P 500 Index
 - QQQ – Nasdaq 100 Index
 
-
+---
 
 ## 🧠 Stochastic Concepts Used
 This project applies stochastic modeling by simulating a dynamic investment strategy under uncertainty:
@@ -41,7 +43,7 @@ This project applies stochastic modeling by simulating a dynamic investment stra
 - Correlation analysis uses random time series behavior
 - Sharpe ratio models risk-adjusted expected returns
 
-
+---
 
 ## 🔧 Technologies Used
 - Python 3.13.3
@@ -50,6 +52,7 @@ This project applies stochastic modeling by simulating a dynamic investment stra
 - seaborn: Visualization
 - scipy: Statistical functions
 
+---
 
 ## 💻 How to Run
 
@@ -61,6 +64,7 @@ Open the notebook Project_1_Portfolio_Management.ipynb, and run cells sequential
 - Plot performance
 - Compare with SPY and QQQ
 
+---
 
 ## 🧮 What I Learned
 - Correlation Matrix: How to compute and interpret correlations between assets.
@@ -68,3 +72,5 @@ Open the notebook Project_1_Portfolio_Management.ipynb, and run cells sequential
 - Performance Metrics: Sharpe Ratio and Max Drawdown as risk-return indicators.
 - Time-Series Handling: Using pandas and yfinance to handle financial time series data.
 - Investment Simulation: Creating realistic backtests with rebalance logic and historical data.
+
+---
