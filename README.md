@@ -25,6 +25,7 @@ This project simulates a systematic approach to managing a $1M investment in the
 ##### ✅ Results
 | Strategy Version       | Sharpe Ratio | Max Drawdown | Return (2012–2024) |
 |------------------------|--------------|--------------|--------------------|
+|------------------------|--------------|--------------|--------------------|
 | **Original Strategy**  | 1.13         | -35.17%      | 900%+              |
 | **Improved Strategy**  | 1.45         | -29.22%      | 1800%+             |
 | **SPY ETF**            | 0.88         | -32.05%      | ~700–800%          |
